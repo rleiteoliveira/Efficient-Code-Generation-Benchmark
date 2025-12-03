@@ -60,8 +60,8 @@ Our benchmarks show that Local SLMs can match the performance of proprietary Clo
 ### 2. Installation
 
 ```bash
-git clone https://github.com/yourusername/ticoder-slm-local.git
-cd ticoder-slm-local
+git clone https://github.com/rleiteoliveira/Efficient-Code-Generation-Benchmark
+cd Efficient-Code-Generation-Benchmark
 
 python -m venv venv
 
@@ -111,7 +111,7 @@ python src/generate_candidates.py
 ### **Step 2 — Run the Benchmark**
 
 ```bash
-python src/benchmark_runner.py --model_name "Local-Granite-3B" --candidates_file data/candidates_cache.json
+python src/benchmark_runner.py --model_name "local-model-id" --candidates_file data/candidates_cache.json
 ```
 
 ### **Step 3 — Visualize**
