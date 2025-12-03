@@ -149,7 +149,8 @@ python src/plot_dashboard.py
 
 ## 📚 References
 
-This project is a clean, independent reproduction inspired by the methodology presented in:
+This project is a clean, independent reproduction inspired by the methodology and code presented in:
 
-> **TiCoder (Primary Source):** [LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation](https://ieeexplore.ieee.org/abstract/document/10606356) - *Fakhoury et al. (IEEE Transactions on Software Engineering, 2024)*
+* **Paper (Primary Source):** [LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation](https://ieeexplore.ieee.org/abstract/document/10606356) - *Fakhoury et al. (IEEE Transactions on Software Engineering, 2024)*
+* **Original Repository:** [Microsoft/TiCoder](https://github.com/microsoft/TiCoder)
 
