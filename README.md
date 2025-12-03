@@ -10,7 +10,7 @@ This repository refactors the original TiCoder logic into a clean architecture, 
 
 Our benchmarks demonstrate that **Local SLMs** (Small Language Models) can match the performance of proprietary Cloud models in test generation tasks, while TiCoder significantly outperforms CodeT in low-resource scenarios.
 
-![Average Candidate Reduction Rate on HumanEval Dataset](path/to/your/image.png)
+![Average Candidate Reduction Rate on HumanEval Dataset](results_charts/chart1_avg_reduction.png)
 *(Figure: Average Candidate Reduction Rate on HumanEval Dataset, N=21)*
 
 ### Key Findings
