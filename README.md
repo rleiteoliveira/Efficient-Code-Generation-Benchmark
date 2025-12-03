@@ -15,9 +15,11 @@ Our benchmarks demonstrate that **Local SLMs** (Small Language Models) can match
 
 ### Key Findings
 
-* **Local vs. Cloud Parity:** The local **Granite-Tiny** model (running on <3GB VRAM) achieved a **73.81% reduction rate**, statistically tying with **GPT-4o-mini (74.29%)** and the massive Qwen-30B.
-* **Strategy Efficiency:** In low-sampling regimes ($N=20$), **TiCoder** (Oracle-based) is far superior, reducing the search space by ~74%. **CodeT** (Consensus) fails to filter incorrect candidates effectively without massive sampling ($N>100$).
-* **Zero Cost:** The entire pipeline can run locally with zero inference costs.
+1. **Local vs. Cloud Parity:** The local **Granite-Tiny** model (running on <3GB VRAM) achieved a **73.33% reduction rate**, effectively tying with the larger **Local-GPT-OSS-20B (73.33%)** and falling less than 1% behind the proprietary **Cloud-GPT-4o-mini (74.29%)**. This proves that massive parameter counts are not strictly necessary for effective test generation.
+
+2. **Strategy Efficiency:** In low-sampling regimes ($N=20$), **TiCoder** (Oracle-based) is far superior, reducing the search space by ~74% on average. In contrast, **CodeT** (Consensus) fails to filter incorrect candidates effectively without massive sampling ($N>100$), maintaining ~95% of the candidates (only ~5% reduction).
+
+3. **Zero Cost:** The entire pipeline was validated running locally with zero inference costs, offering a privacy-first alternative to API-dependent workflows.
 
 ---
 
